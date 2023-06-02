@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Kalyan Reddy</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kalyan Reddy">
+    <meta name="description" content="Hi. I am Kalyan Reddy. On this site we explore the strategies and that help us live happier, healthier, more productive lives.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/1.png">
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b92e3a1fdd.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <section class="header">
+    <nav>
+      <a href="about.html"><img src="images/1.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="booknotes.html">BOOK NOTES</a></li>
+            <li><a href="articles.html">ARTICLES</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+      <div class="text-box">
+        <img src="about/Home.png" alt="">
+         <h1>About</h1>
+          <br>
+          <ul>
+         <li>I'm Kalyan, a passionate student, artist, and tennis player. This platform is a reflection of my diverse interests and the different facets of my life.</li>
+         <br>
+         <h2>Who am I</h2>
+         <br>
+         <li>Hello I'm kalyan, a student abitious about coding. On this site we explore evidance-based stratergie that can help us be more productive, and build a life that we love.</li>
+         <br><br>
+        
+         <h3>Quick facts about me</h3>
+         <br>
+         <li>I am an 18-year-old artist and a passionate university student with a deep love for coding. With boundless energy and a positive outlook, I embark on creative journeys, blending my artistic talents with my coding prowess to bring ideas to life.</li>
+         <br>
+         <img class="codingimage" src="images/coding.jpg" alt="a person using 3 computers">
+         <br>
+         <br>
+         <li>Art is my sanctuary—a colorful realm where I can freely express myself. From painting to sketching, from photography to graphic design, I explore a wide array of mediums, constantly pushing the boundaries of my imagination. Each stroke of the brush and every pixel I manipulate on the screen is infused with my unwavering enthusiasm.</li>
+         <br>
+         <img class="drawingimage" src="images/drawing.jpg" alt="a picture of kids drawing">
+         <br>
+         <li>Collaboration is at the core of my creative philosophy. I thrive in team environments, where diverse perspectives merge to create something truly remarkable. Whether I'm collaborating with fellow artists or joining forces with fellow coders, I cherish the opportunity to bring different talents together, fostering an atmosphere of synergy and mutual support.</li>
+         <br>
+         <li>Through my website, I invite you to embark on a transformative journey, where we'll explore practical strategies, time-tested techniques, and cutting-edge tools that will revolutionize the way you approach your daily life. From effective time management to prioritization techniques, from goal setting to habit building, I've got you covered with a wealth of actionable advice.</li>
+         <br>
+         <li>So join me on this exhilarating adventure of productivity and literary exploration. Together, we'll conquer goals, devour captivating stories, and embark on a transformative quest towards a brighter, more fulfilling future.</li>
+         <br>
+         <p><strong>Let's unlock your full potential, one page at a time!</strong></p>
+        </ul>
+      </div>   
+  </section> 
+
+  <script>
+      var navLinks = document.getElementById("navLinks")
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-260px";
+      }
+  </script>
+
+  </body>
+
+
+</html>
