@@ -64,7 +64,7 @@ a:hover {
   transition: 0.3s;
 }
 
-@media(max-width: 700px){
+@media(max-width: 768px){
   .text-box h1{
       font-size: 20px;
   }
@@ -101,14 +101,16 @@ a:hover {
 
 .row{
   margin-top: 5%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
   justify-content: space-between;
 }
 .Articles{
   width: 95%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .Articles h2{
   font-size: 22px;
@@ -123,7 +125,7 @@ a:hover {
 .articles-col{
   flex-basis: 31%;
   background-color: rgb(255, 255, 255);
-  margin-bottom: 5%;
+  margin-bottom: 10px;
   border-radius: 5px;
   padding: 20px 12px;
   box-sizing: border-box;
