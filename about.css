@@ -87,11 +87,11 @@ img{
     border-radius: 50px;
 }
 .codingimage{
-    border-radius: 8px;
+    border-radius: 5px;
     
 }
 .drawingimage{
-    border-radius: 8px;
+    border-radius: 5px;
     
 }
 
@@ -105,7 +105,7 @@ img{
     }
     .nav-links{
         position: absolute;
-        background: #fff7f4;
+        background: #ffffff;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -124,5 +124,7 @@ img{
     .nav-links{
         padding: 30px;
     }
+}.text-box img{
+    transform: translateX(-48px);
 }
 
