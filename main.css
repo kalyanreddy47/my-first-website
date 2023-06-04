@@ -76,7 +76,6 @@ nav .fa-solid{
     display: none;
 }
 a:hover {
-    text-decoration: none;
     color: #0a7cff;
     transition: 0.3s;
 }
