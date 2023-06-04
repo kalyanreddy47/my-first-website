@@ -64,7 +64,7 @@ a:hover {
   transition: 0.3s;
 }
 
-@media(max-width: 768px){
+@media(max-width: 700px){
   .text-box h1{
       font-size: 20px;
   }
@@ -95,9 +95,12 @@ a:hover {
   .nav-links ul{
       padding: 30px;
   }
+  .Articles{
+     margin-top: 70px;
+  }
 }
 
-/*----- Explore ------*/
+/*----- articles ------*/
 
 .row{
   margin-top: 5%;
@@ -143,4 +146,33 @@ a:hover {
   transform: translateY(3%);
 }
 
+@media(max-width: 700px){
+  .row{
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;
+  }
+  .Articles{
+    width: 105%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .articles-col{
+    width: 90%;
+    margin-left: 10px;
+    flex-basis: 31%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  .articles-col img{
+    width: 100%;
+    display: block;
+  }
+}
 
