@@ -75,14 +75,12 @@ nav img{
 nav .fa-solid{
     display: none;
 }
-a:hover, a:active {
+a:hover {
     text-decoration: none;
     color: #0a7cff;
+    transition: 0.3s;
 }
-a:visited{
-    color: #0a7cff;
-    text-decoration: none;
-}
+
 
  
 @media(max-width: 700px){
