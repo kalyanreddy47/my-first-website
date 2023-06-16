@@ -51,16 +51,20 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+table {
+    width: 100%;
+}
 .text-box{
-    text-align: center;
     width: 90%;
     color: #000000;
     position: absolute;
     top: 24%;
     left: 9%;
 }
-.text-box img{
-    width: 400px;
+.header img{
+    width: 90px;
+    float: right;
+    transform: translate(0px, 55px);
 }
 .text-box h1{
     font-size: 40px;
@@ -74,6 +78,10 @@ nav img{
     font-size: 28px;
     color: #474747;
 }
+.sports p{
+    font-size: 28px;
+    color: #474747;
+}
 .text-box h2{
     font-size: 40px;
 }
@@ -83,8 +91,22 @@ nav img{
 nav .fa-solid{
     display: none;
 }
-img{
-    border-radius: 50px;
+.text-box img {
+    width: 500px;
+    float: right;
+    border-radius: 10px;
+}
+.sports img {
+    width: 400px;
+    float: left;
+    border-radius: 10px;
+    transform: translate(115px, 780px);
+}
+strong {
+    background-color: #fde7f9;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .codingimage{
     border-radius: 5px;

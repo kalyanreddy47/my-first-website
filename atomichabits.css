@@ -107,6 +107,11 @@ nav .fa-solid{
     color: #000000;
 
 }
+audio {
+    transform: translateX(400px);
+    margin-top: 20px;
+    background-color: white;
+}
 
  
 @media(max-width: 700px){

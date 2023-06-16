@@ -27,6 +27,10 @@ body{
     background-size: cover;
     position: relative;
 }
+div {
+    height: relative;
+    width: relative;
+}
 .text-box img{
     width: 500px;
     float: right;
@@ -88,9 +92,11 @@ nav img{
 }
 .text-box p1{
     font-size: 24px;
+    display: inline;
 }
 .text-box p2{
     font-size: 30px;
+    display: inline;
 }
 nav .fa-solid{
     display: none;
@@ -162,6 +168,9 @@ nav .fa-solid{
     }
     .text-box p1{
         word-break: unset;
+    }
+    .footer {
+        height: auto;
     }
 }
 
@@ -415,8 +424,8 @@ hr {
     border-bottom: 1px solid black;
     margin: 20px auto;
 }
-.copyright{
-    text-align: center;
+div .copyright {
+    margin: 0 auto;
 }
 @media (max-width: 700px){
     .footercol h3{
