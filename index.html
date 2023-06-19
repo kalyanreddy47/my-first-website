@@ -1,31 +1,28 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
-
   <head>
-    <title>Kalyan Reddy</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalyan Reddy</title>
     <meta name="author" content="Kalyan Reddy">
     <meta name="description" content="Hi. I am Kalyan Reddy. On this site we explore the strategies that help us live happier, healthier, more productive lives.">
     <link rel="icon" href="images/1.png">
-    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <!--required Bootstrap cdn and css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <!--required fonts and icons cdn-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b92e3a1fdd.js" crossorigin="anonymous"></script>
   </head>
-
-
   <body>
-    <div id="progress">
-      <span id="progress-value">&#x1F815;</span>
-    </div>
     <section class="header">
     <nav>
-      <a href="index.html"><img src="images/1.png" alt=""></a>
+      <a href="index.html"><img src="images/1.png" alt="KN logo"></a>
       <div class="nav-links" id="navLinks">
         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
         <ul>
@@ -37,128 +34,136 @@
       </div>
       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
-
-
-      <div class="text-box">
-         <h1>Hey friends —</h1>
-          <br>
-         <p>I'm Kalyan. I'm a student,<br> Artist and Tennis player.</p>    
-          <img class="personstudying3d" src="backgrounds/personstudying3d1.png" alt="">
-          <br>
-         <p1>On this site you can "Boost your productivity with <br> our insightful articles, offering study tips, personal development advice, and a wealth of knowledge". <br> Get ready to embark on a transformative journey <br> towards success and self-improvement.
+ 
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Hey friends —</h1>
+      
+        <p style="font-size: 32px;">I'm Kalyan. I'm a student,<br> Artist and Tennis player.</p>
+         <p1>On this site you can "Boost your productivity with our insightful articles, offering study tips, personal development advice, and a wealth of knowledge". Get ready to embark on a transformative journey towards success and self-improvement.
          </p1>
          <br>
-         <br>
          <p2><strong> Let's start expanding your horizons!</strong></p2>
-       </div> 
-  </section> 
-
-
-
-  <section class="omniscient">
-    <h1>Check out My Guides</h1>
-    <p>These are the guides that I started using to elevate My Knowledge consuption and be more Productive on things that I do.</p>
-
-    <div class="row">
-      <div class="omniscient-col">
-        <h3>Productivity</h3>
-        <p>How to execute your work effeciently, make time for what matters and have fun along the way.</p>
       </div>
-      <div class="omniscient-col">
-        <h3>Studying</h3>
-        <p>How to study effectively for exams, with a best evidanve based techniques.</p>
-      </div>
-      <div class="omniscient-col">
-        <h3>Book Summaries</h3>
-        <p>The books that I have read along and am reading are summarized for an easy grasp.</p>
+
+      <div class="col-lg-6">
+        <img class="img-fluid" src="backgrounds/personstudying3d1.png" alt="person studying">
       </div>
     </div>
-  </section>
-  
-
-
-  <section class="Explore">
-    <h1>Explore</h1>
-    <div class="row">
-      <div class="productivity-col">
-        <img src="images/booksvector.png" alt="" loading="lazy">
-          <p> <a href="booksummaries.html">Book Summaries</a></p>
-      </div>
-      <div class="productivity-col">
-        <img src="images/weeklypodcastvector.png" alt="" loading="lazy">
-          <p> <a href="podcasts.html">Productivity & Studying</a></p>
-      </div>
-      <div class="productivity-col">
-        <img src="images/latestarticlevector.png" alt="" loading="lazy">
-          <p><a href="articles.html">Articles</a></p>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="BookSummaries">
-            <h1>Read my Book Summaries</h1>
-      <div class="row">
-           <div class="booksummaries">
-              <img class="bookcoverimages" src="bookcoverpages/atomichabits-199x300.jpg" alt="" loading="lazy">
-              <a href="atomichabits.html"><br>Atomic Habits(James Clear):Book Summary & Highlights.</a>
-              <p style="transform: translateY(10%);">"Atomic Habits" is a transformative book that reveals the incredible power of small actions and provides practical strategies for building positive habits that last.</p>
-              
-            </div>
-            <div class="booksummaries">
-              <img class="bookcoverimages" src="bookcoverpages/thepsycologyofmoney.jpg" alt="" width="199" height="300" loading="lazy">
-              <a href="thepsycologyofmoney.html"><br>The Psycology Of Money(Morgan Housel):Book Summary & Highlights.</a>
-              <p style="transform: translateY(10%);">"The Psychology of Money" is a captivating exploration of how our emotions, biases, and behaviors influence financial decisions, offering valuable insights for building wealth and finding true contentment.</p>
-            </div>
-            <div class="booksummaries">
-              <img class="bookcoverimages" src="bookcoverpages/the5AMClub.jpg" alt="" width="199" height="300" loading="lazy">
-              <a href="the5amclub.html"><br>The 5 AM Club(Robin Sharma):Book Summary & Highlights.</a>
-              <p style="transform: translateY(10%);">"The 5 AM Club" by Robin Sharma is an inspiring book that advocates waking up early, prioritizing personal growth, and optimizing productivity for a fulfilling and successful life.</p>
-            </div>
-      </div>
-  </section>
+  </div>  
+    </section>
     
-
-
-    <section class="footer">
-      <div class="footerrow">
-        <div class="footercol1">
-          <img src="images/1.png" class="footerlogo">
-          <p>Begin your journey towards greater productivity and overall development today. Start exploring our website and take the first step towards unlocking your true potential.</p>
+    <section class="omniscient">
+      <h1>Check out My Guides</h1>
+      <p>These are the guides that I started using to elevate My Knowledge consuption and be more Productive on things that I do.</p>
+  
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>Productivity</h3>
+          <p>How to execute your work effeciently, make time for what matters and have fun along the way.</p>
         </div>
-        <div class="footercol">
-          <h3>Links</h3>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="booknotes.html">BOOKNOTES</a></li>
-            <li><a href="articles.html">ARTICLES</a></li>
-          </ul>
+        <div class="col-lg-4">
+          <h3>Studying</h3>
+          <p>How to study effectively for exams, with a best evidanve based techniques.</p>
         </div>
-        <div class="footercol">
-          <h3>NewsLetter</h3>
-          <form action="mailto:kalyanreddynandikonda@gmail.com" target="_blank" method="post" enctype="text/plain">
-            <i class="fa-sharp fa-solid fa-envelope" style="color: #000000;"></i>
-            <input type="email" placeholder="Enter your email id" required>
-            <button type="submit"><i class="fa-sharp fa-solid fa-arrow-right" style="color: #000000;"></i></button>
-          </form>
-        </div>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/kalyanreddy.nandikonda" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
-          <a href="https://www.instagram.com/kalyanrdy/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-          <a href="" traget="_blank"></a><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>
-        </div>
-        <hr>
-        <div class="copyright">
-          <p> © 2023 Kalyan Reddy. All rights reserved.</p>
+        <div class="col-lg-4">
+          <h3>Book Summaries</h3>
+          <p>The books that I have read along and am reading are summarized for an easy grasp.</p>
         </div>
       </div>
     </section>
 
+    <section class="Explore">
+      <h1>Explore</h1>
+      <p>Embark on a digital adventure through our Explore section, discovering captivating articles, fascinating book insights, and awe-inspiring destinations.</p>
+      <div class="row" id="explore">
+        <div class="productivity-col">
+          <img src="images/booksvector.png" alt="" loading="lazy">
+            <p> <a href="booksummaries.html">Book Summaries</a></p>
+        </div>
+        <div class="productivity-col">
+          <img src="images/weeklypodcastvector.png" alt="" loading="lazy">
+            <p> <a href="podcasts.html">Productivity & Studying</a></p>
+        </div>
+        <div class="productivity-col">
+          <img src="images/latestarticlevector.png" alt="" loading="lazy">
+            <p><a href="articles.html">Articles</a></p>
+        </div>
+      </div>
+    </section>
 
-  <script src="script.js"></script>
-  <script>
+    <section class="BookSummaries">
+      <h1>Read my Book Summaries</h1>
+   <div class="row">
+     <div class="booksummaries">
+        <img class="bookcoverimages" src="bookcoverpages/atomichabits-199x300.jpg" alt="" loading="lazy">
+        <a href="atomichabits.html"><br>Atomic Habits(James Clear):Book Summary & Highlights.</a>
+        <p style="transform: translateY(10%);">"Atomic Habits" is a transformative book that reveals the incredible power of small actions and provides practical strategies for building positive habits that last.</p>
+        
+      </div>
+      <div class="booksummaries">
+        <img class="bookcoverimages" src="bookcoverpages/thepsycologyofmoney.jpg" alt="" width="199" height="300" loading="lazy">
+        <a href="thepsycologyofmoney.html"><br>The Psycology Of Money(Morgan Housel):Book Summary & Highlights.</a>
+        <p style="transform: translateY(10%);">"The Psychology of Money" is a captivating exploration of how our emotions, biases, and behaviors influence financial decisions, offering valuable insights for building wealth and finding true contentment.</p>
+      </div>
+      <div class="booksummaries">
+        <img class="bookcoverimages" src="bookcoverpages/the5AMClub.jpg" alt="" width="199" height="300" loading="lazy">
+        <a href="the5amclub.html"><br>The 5 AM Club(Robin Sharma):Book Summary & Highlights.</a>
+        <p style="transform: translateY(10%);">"The 5 AM Club" by Robin Sharma is an inspiring book that advocates waking up early, prioritizing personal growth, and optimizing productivity for a fulfilling and successful life.</p>
+      </div>
+</div>
+</section>
+
+<section class="footer">
+  <div class="footerrow">
+    <div class="footercol1">
+      <img src="images/1.png" class="footerlogo">
+      <p>Begin your journey towards greater productivity and overall development today. Start exploring our website and take the first step towards unlocking your true potential.</p>
+    </div>
+    <div class="footercol">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="booknotes.html">BOOKNOTES</a></li>
+        <li><a href="articles.html">ARTICLES</a></li>
+      </ul>
+    </div>
+    <div class="footercol">
+      <h3 class="newsletter">NewsLetter</h3>
+      <form action="mailto:kalyanreddynandikonda@gmail.com" target="_blank" method="post" enctype="text/plain">
+        <i class="fa-sharp fa-solid fa-envelope" style="color: #000000;"></i>
+        <input type="email" placeholder="Enter your email id" required>
+        <button type="submit"><i class="fa-sharp fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+      </form>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/kalyanreddy.nandikonda" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+      <a href="https://www.instagram.com/kalyanrdy/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+      <a href="" traget="_blank"></a><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p> © 2023 Kalyan Reddy. All rights reserved.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <script>
       var navLinks = document.getElementById("navLinks")
       function showMenu(){
         navLinks.style.right = "0";
@@ -167,8 +172,5 @@
         navLinks.style.right = "-260px";
       }
   </script>
-
   </body>
-
-
 </html>
