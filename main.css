@@ -394,40 +394,6 @@ ul li a{
   font-size: 13px;
   font-weight: 500;
 }
-form {
-  padding-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid #ffffff;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.fa-envelope {
-  font-size: 18px;
-  margin-left: 10px;
-}
-.newsletter {
-  transform: translateX(-28px);
-}
-.fa-arrow-right{
-  font-size: 18px;
-  margin: 3px -40px 0 0;
-}
-input {
-  width: 100%;
-  background: transparent;
-  color: #000000;
-  border: 0;
-  outline: none;
-  margin-left: 10px; 
-}
-form button {
-  background: transparent;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-}
 .fa-brands {
   text-align: center;
   font-size: 38px;
@@ -458,7 +424,7 @@ div .copyright {
   }
   .fa-brands {
     margin-top: 20px;
-    margin-left: 33px;
+    margin-left: 30px;
   }
   .footer img {
     width: 54px;
