@@ -21,10 +21,10 @@ nav{
   align-items: center;
 }
 nav img{
-  width: 150px;
-  position: absolute;
-  top: 0%;
-  left: 9.5%;
+  width: 85px;
+  position: relative;
+  margin-top: -15px;
+  margin-left: 35px;
 }
 .nav-links{
   display: flex;

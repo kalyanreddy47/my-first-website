@@ -47,6 +47,11 @@ nav img{
   display: inline-block;
   padding: 8px 12px;
   position: relative;
+  margin-bottom: 0px;
+}
+.nav-links ul {
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 .nav-links ul li a{
   color: rgb(0, 0, 0);
@@ -106,8 +111,16 @@ nav .fa-solid{
   }
 }
 @media(max-width: 768px){
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .col-lg-6 h1{
-      font-size: 20px;
+    font-size: 40px;
+    margin-top: 30px;
   }
   .col-lg-6 p1{
       font-size: 17px;
@@ -116,7 +129,8 @@ nav .fa-solid{
       font-size: 20px;
   }
   .nav-links ul li{
-      display: block;
+      padding: 0px;
+      margin-bottom: 20px;
   }
   nav img {
     width: 50px;
@@ -129,10 +143,10 @@ nav .fa-solid{
       height: 100vh;
       width: 200px;
       top: 0;
-      right: -260px;
+      right: -200px;
       text-align: left;
       z-index: 2;
-      transition: 0.3s;
+      transition: 0.7s;
   }
   nav .fa-solid{
       display: block;
@@ -143,6 +157,7 @@ nav .fa-solid{
   }
   .nav-links ul{
       padding: 30px;
+      margin-top: 60px;
   }
   .col-lg-6 img{
       width: 320px;
@@ -305,6 +320,7 @@ a:hover {
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  cursor: pointer;
 }
 .BookSummaries h1{
   font-size: 36px;
@@ -313,6 +329,7 @@ a:hover {
 .booksummaries{
   flex-basis: 31%;
   margin-bottom: 5%;
+  cursor: pointer;
 }
 .bookcoverimages {
   margin-bottom: 20px;
@@ -433,4 +450,9 @@ div .copyright {
     display: none;
   }
 
+}
+@media (max-width: 768px){
+  .social-icons {
+    margin: auto;
+  }
 }
