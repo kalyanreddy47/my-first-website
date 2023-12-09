@@ -123,7 +123,7 @@ nav .fa-solid{
     margin-top: 30px;
   }
   .col-lg-6 p1{
-      font-size: 17px;
+      font-size: 20px;
   }
   .col-lg-6 p2{
       font-size: 20px;
@@ -131,6 +131,10 @@ nav .fa-solid{
   .nav-links ul li{
       padding: 0px;
       margin-bottom: 20px;
+  }
+  .nav-links ul li a{
+    font-size: 20px;
+    font-family: sans-serif;
   }
   nav img {
     width: 50px;
@@ -158,11 +162,16 @@ nav .fa-solid{
   .nav-links ul{
       padding: 30px;
       margin-top: 60px;
+      transform: translateX(-40px);
   }
   .col-lg-6 img{
       width: 320px;
       margin-top: 40px;
       
+  }
+  .fa-xmark {
+    padding: 20px 0 0 10px;
+    transform: translateX(150px);
   }
   .header{
       width: relative;

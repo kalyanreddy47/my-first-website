@@ -28,19 +28,21 @@ body{
 nav{
   display: flex;
   padding: 2% 6%;
+  margin-bottom: -60px;
   justify-content: space-between;
   align-items: center;
 }
 nav img{
   width: 85px;
   position: relative;
-  margin-top: -15px;
+transform: translateY(-65px);
   margin-left: 35px;
 }
 .nav-links{
   display: flex;
   text-align: right;
   justify-content: space-between;
+  transform: translateY(-27px);
 }
 .nav-links ul li{
   list-style: none;
@@ -79,6 +81,7 @@ p1 {
 }
 .img-fluid {
   border-radius: 15px;
+  transform: translateY(-36px);
 }
 img {
   width: 550px;
@@ -141,6 +144,9 @@ img {
   .col-lg-12 p{
       font-size: 18px;
   }
+  .header{
+    min-height: 90vh;
+  }
   .welcome {
     width: 90%;
     margin: auto;
@@ -154,7 +160,7 @@ img {
   }
   nav img {
     width: 50px;
-    margin-top: 20px;
+    transform: translateY(-15px);
     margin-left: 10px;
   }
   .nav-links{
