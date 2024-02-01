@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kalyan Reddy">
+  <meta name="description" content="Hi. I am Kalyan Reddy. On this site we explore the strategies that help us live happier, healthier, more productive lives.">
+  <link rel="icon" href="images/1.png">
+  <link rel="stylesheet" type="text/css" href="articles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b92e3a1fdd.js" crossorigin="anonymous"></script>
+</head>
+<title>Articles</title>
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/1.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="booksummaries.html">BOOK SUMMARIES</a></li>
+            <li><a href="blog.html">ARTICLES</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <section class="Articles">
+      <div class="row">
+
+        <div class="articles-col">
+          <h2>Article One</h2>
+        </div>
+      </div>
+    </section>
+  </section>
+  <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
+   
+  <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-260px";
+    }
+</script>
+
+</body>
+</html>
